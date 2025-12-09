@@ -1,0 +1,46 @@
+/* ----- FULL PAGE BACKGROUND ----- */
+.stApp {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ----- SEMI-TRANSPARENT CONTENT CARD ----- */
+.main-block {
+    background: rgba(255, 255, 255, 0.80);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* ----- TITLES ----- */
+h1, h2, h3 {
+    color: white !important;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.4);
+}
+
+/* ----- SIDEBAR ----- */
+[data-testid="stSidebar"] > div:first-child {
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(5px);
+}
+
+[data-testid="stSidebar"] label {
+    font-weight: 600;
+}
+
+/* ----- BUTTONS ----- */
+.stButton>button {
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-weight: 600;
+}
+
+.stButton>button:hover {
+    background-color: #0D47A1;
+}
